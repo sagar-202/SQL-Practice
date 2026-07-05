@@ -4,4 +4,5 @@ from Weather yesterday
 cross join Weather today
 
 where datediff(today.recordDate,yesterday.recordDate) = 1
-And today.temperature > yesterday.temperature;
+And today.temperature > yesterday.temperature
+;
